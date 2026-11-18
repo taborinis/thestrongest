@@ -20,7 +20,7 @@ function api(method, url, body, auth) {
 }
 
 const order = (over = {}) => ({
-  name: 'Костенко Станіслав',
+  name: 'Іваненко Іван',
   phone: '+380 (50) 123-45-67',
   delivery: 'np',
   city: 'Київ',

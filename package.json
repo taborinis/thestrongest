@@ -16,6 +16,5 @@
   "dependencies": {
     "express": "^5.1.0"
   },
-  "author": "Костенко Станіслав Сергійович",
   "license": "UNLICENSED"
 }

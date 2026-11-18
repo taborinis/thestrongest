@@ -3,8 +3,8 @@
 Лабораторна робота № 5 «Розроблення вебзастосунку з використанням технологій вайбкодингу».
 Клієнтська частина з ЛР № 1-4 доповнена сервером на Node.js + Express, базою даних SQLite і REST API.
 
-**Розгорнутий застосунок:** `https://<назва-сервісу>.onrender.com` _(вставити після розгортання)_
-**Автор:** Костенко Станіслав Сергійович, ФІТ, 2-13
+**Розгорнутий застосунок:** https://thestrongest.onrender.com  
+**Репозиторій:** https://github.com/taborinis/thestrongest
 
 ## Можливості
 
@@ -87,7 +87,7 @@ products 1──* order_items *──1 orders
 
 ```bash
 curl -X POST http://localhost:3000/api/orders -H "Content-Type: application/json" \
-  -d '{"name":"Костенко Станіслав","phone":"+380501234567","delivery":"pick","items":[{"id":1,"size":"M","qty":1}]}'
+  -d '{"name":"Іваненко Іван","phone":"+380501234567","delivery":"pick","items":[{"id":1,"size":"M","qty":1}]}'
 # → 201 {"id":1,"number":"12345678","total":14745,"items":[...]}
 ```
 

@@ -1,0 +1,23 @@
+/* оформлення замовлення: форма і склад */
+.two{display:grid;grid-template-columns:1fr 360px;gap:24px;align-items:start}
+.field{margin:0 0 14px;padding:0;border:0;min-width:0}
+.field>label,.field>span,.field>legend{display:block;color:var(--mute);font-size:13px;margin-bottom:6px;padding:0}
+/* вибір доставки */
+.radio{display:flex;gap:10px}
+.radio label{flex:1;border:1px solid var(--line);border-radius:10px;padding:12px;cursor:pointer;display:flex;gap:10px;align-items:center;background:var(--surface)}
+.radio label:has(input:checked){border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.radio input{accent-color:var(--accent)}
+/* повідомлення після відправки форми */
+.ok{display:none;color:var(--ok);font-weight:600;margin:12px 0 0}
+.ok:target{display:block}
+/* помилки у полях після спроби відправки */
+input.f:user-invalid,textarea.f:user-invalid,select.f:user-invalid{border-color:var(--accent)}
+/* адмінка */
+.admin{max-width:620px;margin:auto}
+/* місце для фото */
+.drop{position:relative;border:2px dashed var(--line);border-radius:12px;min-height:170px;display:grid;place-content:center;text-align:center;color:var(--mute);background:var(--surface);overflow:hidden;padding:12px}
+.drop input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer}
+.drop:hover,.drop:focus-within{border-color:var(--accent);color:var(--accent)}
+.drop .d-done{display:none}
+.drop:has(input:valid) .d-done{display:block;color:var(--ok);font-weight:600}
+.drop:has(input:valid) .d-empty{display:none}

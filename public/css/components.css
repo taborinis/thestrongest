@@ -1,0 +1,40 @@
+/* панель */
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px}
+.panel h2,.panel h3{font-size:20px;margin-bottom:10px}
+.narrow{max-width:640px}.narrow p:last-child{margin-bottom:0}
+/* кнопки */
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);border:0;border-radius:8px;padding:10px 18px;font:inherit;font-weight:600;text-align:center;text-decoration:none;cursor:pointer}
+.btn:hover{filter:brightness(.92)}
+.btn.lg{padding:14px 32px}
+.btn.ghost{background:none;color:var(--ink);border:1px solid var(--line)}
+.btn.block{display:block;width:100%}
+.btn.disabled{opacity:.4;cursor:not-allowed}
+/* посилання-кнопка */
+.link{color:var(--accent);font-weight:600;padding:4px}
+/* поля вводу */
+input.f,textarea.f,select.f{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:inherit}
+input.f:focus,textarea.f:focus,select.f:focus{border-color:var(--accent);outline:0}
+/* сітка карток */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:16px}
+/* картка товару */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:6px}
+.card:hover{border-color:var(--accent)}
+.card .btn{margin-top:auto}
+.name{font:600 15px/1.45 Barlow,sans-serif;min-height:2.9em;margin:0;letter-spacing:0}
+.name a{text-decoration:none}.name a:hover{color:var(--accent)}
+.brand{color:var(--mute);font-size:13px;font-weight:600}
+.meta{color:var(--mute);font-size:13px}.meta.out{color:var(--accent)}
+.price{font:700 22px 'Barlow Condensed',sans-serif}
+.old{font-size:.65em;color:var(--mute);margin-left:6px;font-weight:500}
+/* фото товару */
+.tile{aspect-ratio:1;background:var(--tile);border-radius:8px;position:relative;display:block}
+.tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff;border-radius:8px}
+/* мітка IPF */
+.tag{position:absolute;top:8px;left:8px;z-index:1;background:var(--ok);color:#fff;font:600 11px Barlow,sans-serif;padding:2px 8px;border-radius:99px}
+/* немає в наявності - фото сіре */
+.card.soldout .tile img{filter:grayscale(1) brightness(.7)}
+/* таблиця */
+table{width:100%;border-collapse:collapse}
+th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line)}
+thead th{color:var(--mute);font-weight:600;font-size:13px}
+tbody th{font-weight:700}

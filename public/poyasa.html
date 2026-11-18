@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Пояси — THESTRONGEST</title>
+<meta name="description" content="THESTRONGEST — спеціалізоване екіпірування для пауерліфтингу та важкої атлетики: пояси, наколінники, бинти, гетри, екіпірування.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=Barlow:wght@400;500;600&amp;display=swap">
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/filters.css">
+<link rel="stylesheet" href="css/interactive.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<!-- шапка -->
+<header><div class="bar">
+<a class="logo" href="index.html">THE <b>STRONGEST</b></a>
+<nav aria-label="Основна навігація"><a href="index.html">Каталог</a><a href="poyasa.html" aria-current="page">Пояси</a><a href="nakolinnyky.html">Наколінники</a><a href="getry.html">Гетри</a><a href="ekipiruvannya.html">Екіпірування</a><a href="delivery.html">Доставка</a><a href="admin.html">Адмінка</a></nav>
+<a class="cartbtn" href="checkout.html">Кошик</a>
+</div></header>
+<main>
+<!-- каталог: фільтри зліва, товари справа -->
+<div class="layout">
+<form class="panel filters" aria-label="Фільтри">
+<h2>Фільтри</h2>
+<fieldset class="group g-brand"><legend>Бренд</legend>
+<label class="chk"><input type="checkbox" id="brand-sbd" name="brand" value="sbd"><span>SBD</span><em>2</em></label>
+<label class="chk"><input type="checkbox" id="brand-cerberus" name="brand" value="cerberus"><span>Cerberus</span><em>1</em></label>
+</fieldset>
+<fieldset class="group g-thick"><legend>Товщина пояса</legend>
+<label class="chk"><input type="checkbox" id="thick-10" name="thick" value="10"><span>10 мм</span><em>1</em></label>
+<label class="chk"><input type="checkbox" id="thick-13" name="thick" value="13"><span>13 мм</span><em>2</em></label>
+</fieldset>
+<fieldset class="group g-clasp"><legend>Застібка</legend>
+<label class="chk"><input type="checkbox" id="clasp-karabin" name="clasp" value="karabin"><span>Карабін</span><em>3</em></label>
+<label class="chk"><input type="checkbox" id="clasp-klasychna" name="clasp" value="klasychna"><span>Класична пряжка</span><em>0</em></label>
+</fieldset>
+<button class="btn ghost block" type="reset">Скинути</button>
+</form>
+<section>
+<div class="top">
+<h1>Пояси</h1>
+<label class="sortbox">Сортування <select id="sort" name="sort">
+<option value="pop">Популярні</option>
+<option value="asc">Дешевші спочатку</option>
+<option value="desc">Дорожчі спочатку</option>
+</select></label>
+</div>
+<div class="grid">
+<article class="card" data-brand="sbd" data-thick="13" data-clasp="karabin" data-type="-">
+<a class="tile" href="product-1.html" aria-label="Пояс SBD 13 мм"><img src="img/sbd-belt-13.jpg" alt="Пояс SBD 13 мм" loading="lazy"><span class="tag">IPF approved</span></a>
+<div class="brand">SBD</div>
+<h2 class="name"><a href="product-1.html">Пояс SBD 13 мм</a></h2>
+<div class="meta">13 мм · Карабін</div><div class="price">14 745 грн</div>
+<a class="btn" href="product-1.html">Купити</a>
+</article>
+<article class="card" data-brand="sbd" data-thick="10" data-clasp="karabin" data-type="-">
+<a class="tile" href="product-2.html" aria-label="Пояс SBD 10 мм"><img src="img/sbd-belt-10.jpg" alt="Пояс SBD 10 мм" loading="lazy"><span class="tag">IPF approved</span></a>
+<div class="brand">SBD</div>
+<h2 class="name"><a href="product-2.html">Пояс SBD 10 мм</a></h2>
+<div class="meta">10 мм · Карабін</div><div class="price">14 745 грн</div>
+<a class="btn" href="product-2.html">Купити</a>
+</article>
+<article class="card" data-brand="cerberus" data-thick="13" data-clasp="karabin" data-type="-">
+<a class="tile" href="product-5.html" aria-label="Пояс Cerberus 13 мм"><img src="img/cerberus-belt-13.jpg" alt="Пояс Cerberus 13 мм" loading="lazy"></a>
+<div class="brand">Cerberus</div>
+<h2 class="name"><a href="product-5.html">Пояс Cerberus 13 мм</a></h2>
+<div class="meta">13 мм · Карабін</div><div class="price">6 900 грн</div>
+<a class="btn" href="product-5.html">Купити</a>
+</article>
+<p class="empty">За цими фільтрами нічого немає. Спробуйте скинути їх.</p>
+</div>
+</section>
+</div>
+</main>
+<script src="js/api.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/catalog.js"></script>
+</body>
+</html>

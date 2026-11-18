@@ -1,0 +1,1420 @@
+[
+  {
+    "id": 1,
+    "slug": "product-1",
+    "name": "Пояс SBD 13 мм",
+    "brand": "SBD",
+    "category": "belts",
+    "price": 14745,
+    "old_price": null,
+    "img": "img/sbd-belt-13.jpg",
+    "tag": "IPF approved",
+    "meta": "13 мм · Карабін",
+    "thick": "13",
+    "clasp": "karabin",
+    "type": null,
+    "in_stock": true,
+    "popularity": 1,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": false
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      },
+      {
+        "value": "3XL",
+        "available": true
+      },
+      {
+        "value": "4XL",
+        "available": true
+      },
+      {
+        "value": "5XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "product-2",
+    "name": "Пояс SBD 10 мм",
+    "brand": "SBD",
+    "category": "belts",
+    "price": 14745,
+    "old_price": null,
+    "img": "img/sbd-belt-10.jpg",
+    "tag": "IPF approved",
+    "meta": "10 мм · Карабін",
+    "thick": "10",
+    "clasp": "karabin",
+    "type": null,
+    "in_stock": true,
+    "popularity": 2,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      },
+      {
+        "value": "3XL",
+        "available": true
+      },
+      {
+        "value": "4XL",
+        "available": true
+      },
+      {
+        "value": "5XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "product-3",
+    "name": "Наколінники SBD 7 мм",
+    "brand": "SBD",
+    "category": "knee",
+    "price": 7395,
+    "old_price": null,
+    "img": "img/sbd-knee-7.jpg",
+    "tag": "IPF approved",
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": null,
+    "in_stock": true,
+    "popularity": 3,
+    "sizes": [
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "product-4",
+    "name": "Кистьові бинти Titan Signature Gold 61 см",
+    "brand": "Titan",
+    "category": "wraps",
+    "price": 2195,
+    "old_price": null,
+    "img": "img/titan-wraps-61.jpg",
+    "tag": "IPF approved",
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": null,
+    "in_stock": true,
+    "popularity": 4,
+    "sizes": [
+      {
+        "value": "61",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "product-5",
+    "name": "Пояс Cerberus 13 мм",
+    "brand": "Cerberus",
+    "category": "belts",
+    "price": 6900,
+    "old_price": null,
+    "img": "img/cerberus-belt-13.jpg",
+    "tag": null,
+    "meta": "13 мм · Карабін",
+    "thick": "13",
+    "clasp": "karabin",
+    "type": null,
+    "in_stock": true,
+    "popularity": 5,
+    "sizes": [
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "product-6",
+    "name": "Наколінники Cerberus 7 мм",
+    "brand": "Cerberus",
+    "category": "knee",
+    "price": 3400,
+    "old_price": null,
+    "img": "img/cerberus-knee-7.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": null,
+    "in_stock": true,
+    "popularity": 6,
+    "sizes": [
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "product-7",
+    "name": "Гетри для тяги Cerberus",
+    "brand": "Cerberus",
+    "category": "socks",
+    "price": 799,
+    "old_price": null,
+    "img": "https://cerberus-strength.com.ua/cdn/shop/products/cerberus-deadlift-socks-group-2022_1024x1024_37244765-b085-4c1a-ba9d-9b81f83a4668_1024x1024.jpg?v=1645182012",
+    "tag": null,
+    "meta": "Кольорів: 7",
+    "thick": null,
+    "clasp": null,
+    "type": null,
+    "in_stock": true,
+    "popularity": 7,
+    "sizes": [
+      {
+        "value": "Один розмір",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "product-8",
+    "name": "Гетри SBD Serenity",
+    "brand": "SBD",
+    "category": "socks",
+    "price": 1245,
+    "old_price": null,
+    "img": "img/sbd-socks-serenity.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": null,
+    "in_stock": true,
+    "popularity": 8,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": false
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "product-9",
+    "name": "Гетри для тяги SBD Classic",
+    "brand": "SBD",
+    "category": "socks",
+    "price": 1155,
+    "old_price": null,
+    "img": "img/sbd-socks-classic.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": null,
+    "in_stock": true,
+    "popularity": 9,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "product-10",
+    "name": "Гетри SBD Resolve",
+    "brand": "SBD",
+    "category": "socks",
+    "price": 1245,
+    "old_price": null,
+    "img": "img/sbd-socks-resolve.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": null,
+    "in_stock": true,
+    "popularity": 10,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "product-11",
+    "name": "Гетри SBD Nova",
+    "brand": "SBD",
+    "category": "socks",
+    "price": 1245,
+    "old_price": null,
+    "img": "img/sbd-socks-nova.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": null,
+    "in_stock": true,
+    "popularity": 11,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "product-12",
+    "name": "Гетри SBD Forge (Orange)",
+    "brand": "SBD",
+    "category": "socks",
+    "price": 1245,
+    "old_price": null,
+    "img": "img/sbd-socks-forge-orange.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": null,
+    "in_stock": true,
+    "popularity": 12,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "product-13",
+    "name": "Гетри SBD Aspire",
+    "brand": "SBD",
+    "category": "socks",
+    "price": 1245,
+    "old_price": null,
+    "img": "img/sbd-socks-aspire.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": null,
+    "in_stock": true,
+    "popularity": 13,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "product-14",
+    "name": "Гетри SBD DEFY",
+    "brand": "SBD",
+    "category": "socks",
+    "price": 925,
+    "old_price": 1000,
+    "img": "img/sbd-socks-defy.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": null,
+    "in_stock": true,
+    "popularity": 14,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "product-15",
+    "name": "Гетри SBD Forge (Grey)",
+    "brand": "SBD",
+    "category": "socks",
+    "price": 1245,
+    "old_price": null,
+    "img": "img/sbd-socks-forge-grey.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": null,
+    "in_stock": false,
+    "popularity": 15,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": false
+      },
+      {
+        "value": "S",
+        "available": false
+      },
+      {
+        "value": "M",
+        "available": false
+      },
+      {
+        "value": "L",
+        "available": false
+      },
+      {
+        "value": "XL",
+        "available": false
+      },
+      {
+        "value": "2XL",
+        "available": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "product-16",
+    "name": "Тріко для присідань TITAN SUPER Centurion Suit R/S (вузька/середня постановка ніг)",
+    "brand": "Titan",
+    "category": "gear",
+    "price": 11475,
+    "old_price": null,
+    "img": "img/titan-super-centurion.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": "kombez",
+    "in_stock": true,
+    "popularity": 16,
+    "sizes": [
+      {
+        "value": "26",
+        "available": true
+      },
+      {
+        "value": "30",
+        "available": true
+      },
+      {
+        "value": "32",
+        "available": true
+      },
+      {
+        "value": "36",
+        "available": true
+      },
+      {
+        "value": "38",
+        "available": true
+      },
+      {
+        "value": "40",
+        "available": true
+      },
+      {
+        "value": "42",
+        "available": true
+      },
+      {
+        "value": "46",
+        "available": true
+      },
+      {
+        "value": "48",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "product-17",
+    "name": "Жимова майка Super Katana with Low Cut Collar Construction (Xtreme Katana)",
+    "brand": "Titan",
+    "category": "gear",
+    "price": 13495,
+    "old_price": null,
+    "img": "img/titan-super-katana-1.jpg",
+    "tag": "IPF approved",
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": "zhym",
+    "in_stock": true,
+    "popularity": 17,
+    "sizes": [
+      {
+        "value": "28",
+        "available": false
+      },
+      {
+        "value": "34",
+        "available": false
+      },
+      {
+        "value": "42",
+        "available": false
+      },
+      {
+        "value": "44",
+        "available": false
+      },
+      {
+        "value": "46",
+        "available": false
+      },
+      {
+        "value": "48",
+        "available": false
+      },
+      {
+        "value": "50",
+        "available": false
+      },
+      {
+        "value": "52",
+        "available": false
+      },
+      {
+        "value": "54",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "product-18",
+    "name": "Тріко чоловіче SBD Serenity",
+    "brand": "SBD",
+    "category": "gear",
+    "price": 5395,
+    "old_price": null,
+    "img": "img/sbd-singlet-serenity.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": "triko",
+    "in_stock": true,
+    "popularity": 18,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      },
+      {
+        "value": "3XL",
+        "available": true
+      },
+      {
+        "value": "4XL",
+        "available": true
+      },
+      {
+        "value": "5XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "product-19",
+    "name": "Тріко чоловіче SBD Classic",
+    "brand": "SBD",
+    "category": "gear",
+    "price": 5395,
+    "old_price": null,
+    "img": "img/sbd-singlet-classic.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": "triko",
+    "in_stock": true,
+    "popularity": 19,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      },
+      {
+        "value": "3XL",
+        "available": true
+      },
+      {
+        "value": "4XL",
+        "available": true
+      },
+      {
+        "value": "5XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "product-20",
+    "name": "Тріко чоловіче SBD Forge (Orange)",
+    "brand": "SBD",
+    "category": "gear",
+    "price": 5395,
+    "old_price": null,
+    "img": "img/sbd-singlet-forge-orange.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": "triko",
+    "in_stock": true,
+    "popularity": 20,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      },
+      {
+        "value": "3XL",
+        "available": true
+      },
+      {
+        "value": "4XL",
+        "available": true
+      },
+      {
+        "value": "5XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "product-21",
+    "name": "Тріко чоловіче SBD Resolve",
+    "brand": "SBD",
+    "category": "gear",
+    "price": 5395,
+    "old_price": null,
+    "img": "img/sbd-singlet-resolve.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": "triko",
+    "in_stock": true,
+    "popularity": 21,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      },
+      {
+        "value": "3XL",
+        "available": true
+      },
+      {
+        "value": "4XL",
+        "available": true
+      },
+      {
+        "value": "5XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "product-22",
+    "name": "Тріко чоловіче SBD Forge (Grey)",
+    "brand": "SBD",
+    "category": "gear",
+    "price": 5395,
+    "old_price": null,
+    "img": "img/sbd-singlet-forge-grey.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": "triko",
+    "in_stock": true,
+    "popularity": 22,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      },
+      {
+        "value": "3XL",
+        "available": true
+      },
+      {
+        "value": "4XL",
+        "available": true
+      },
+      {
+        "value": "5XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "product-23",
+    "name": "Тріко чоловіче SBD Aspire",
+    "brand": "SBD",
+    "category": "gear",
+    "price": 5395,
+    "old_price": null,
+    "img": "img/sbd-singlet-aspire.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": "triko",
+    "in_stock": true,
+    "popularity": 23,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      },
+      {
+        "value": "3XL",
+        "available": true
+      },
+      {
+        "value": "4XL",
+        "available": true
+      },
+      {
+        "value": "5XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "product-24",
+    "name": "Тріко чоловіче SBD Nova",
+    "brand": "SBD",
+    "category": "gear",
+    "price": 5395,
+    "old_price": null,
+    "img": "img/sbd-singlet-nova.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": "triko",
+    "in_stock": true,
+    "popularity": 24,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      },
+      {
+        "value": "3XL",
+        "available": true
+      },
+      {
+        "value": "4XL",
+        "available": true
+      },
+      {
+        "value": "5XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "product-25",
+    "name": "Тріко жіноче SBD Serenity",
+    "brand": "SBD",
+    "category": "gear",
+    "price": 5495,
+    "old_price": null,
+    "img": "img/sbd-singlet-w-serenity.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": "triko",
+    "in_stock": true,
+    "popularity": 25,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      },
+      {
+        "value": "3XL",
+        "available": true
+      },
+      {
+        "value": "4XL",
+        "available": true
+      },
+      {
+        "value": "5XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "slug": "product-26",
+    "name": "Тріко жіноче SBD Classic",
+    "brand": "SBD",
+    "category": "gear",
+    "price": 5395,
+    "old_price": null,
+    "img": "img/sbd-singlet-w-classic.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": "triko",
+    "in_stock": true,
+    "popularity": 26,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      },
+      {
+        "value": "3XL",
+        "available": true
+      },
+      {
+        "value": "4XL",
+        "available": true
+      },
+      {
+        "value": "5XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "slug": "product-27",
+    "name": "Тріко жіноче SBD Resolve",
+    "brand": "SBD",
+    "category": "gear",
+    "price": 5495,
+    "old_price": null,
+    "img": "img/sbd-singlet-w-resolve.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": "triko",
+    "in_stock": true,
+    "popularity": 27,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      },
+      {
+        "value": "3XL",
+        "available": true
+      },
+      {
+        "value": "4XL",
+        "available": true
+      },
+      {
+        "value": "5XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "slug": "product-28",
+    "name": "Тріко жіноче SBD Forge (Orange)",
+    "brand": "SBD",
+    "category": "gear",
+    "price": 5495,
+    "old_price": null,
+    "img": "img/sbd-singlet-w-forge-orange.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": "triko",
+    "in_stock": true,
+    "popularity": 28,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      },
+      {
+        "value": "3XL",
+        "available": true
+      },
+      {
+        "value": "4XL",
+        "available": true
+      },
+      {
+        "value": "5XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "slug": "product-29",
+    "name": "Тріко жіноче SBD Momentum",
+    "brand": "SBD",
+    "category": "gear",
+    "price": 4355,
+    "old_price": 5300,
+    "img": "img/sbd-singlet-w-momentum.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": "triko",
+    "in_stock": true,
+    "popularity": 29,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": true
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": true
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      },
+      {
+        "value": "3XL",
+        "available": true
+      },
+      {
+        "value": "4XL",
+        "available": true
+      },
+      {
+        "value": "5XL",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "slug": "product-30",
+    "name": "Тріко жіноче SBD Aspire",
+    "brand": "SBD",
+    "category": "gear",
+    "price": 5395,
+    "old_price": null,
+    "img": "img/sbd-singlet-w-aspire.jpg",
+    "tag": null,
+    "meta": null,
+    "thick": null,
+    "clasp": null,
+    "type": "triko",
+    "in_stock": true,
+    "popularity": 30,
+    "sizes": [
+      {
+        "value": "XS",
+        "available": false
+      },
+      {
+        "value": "S",
+        "available": true
+      },
+      {
+        "value": "M",
+        "available": true
+      },
+      {
+        "value": "L",
+        "available": false
+      },
+      {
+        "value": "XL",
+        "available": true
+      },
+      {
+        "value": "2XL",
+        "available": true
+      },
+      {
+        "value": "3XL",
+        "available": false
+      },
+      {
+        "value": "4XL",
+        "available": true
+      },
+      {
+        "value": "5XL",
+        "available": false
+      }
+    ]
+  }
+]

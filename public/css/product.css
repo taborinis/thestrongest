@@ -1,0 +1,50 @@
+/* картка товару: фото зліва, інфо справа */
+.back{display:inline-block;margin-bottom:4px}
+.pdp{display:grid;grid-template-columns:minmax(0,420px) 1fr;gap:32px;margin-top:12px}
+.pdp h1{font-size:40px}
+.pdp .price{font-size:34px;margin:8px 0 16px}
+.pdp .tile{font-size:48px}
+/* кілька фото: показуємо вибране */
+.tile .v{display:none}
+.pdp:has(#v0:checked) .tile .v0,.pdp:not(:has([name="view"])) .tile .v0{display:block}
+.pdp:has(#v1:checked) .tile .v1,.pdp:has(#v2:checked) .tile .v2,.pdp:has(#v3:checked) .tile .v3,
+.pdp:has(#v4:checked) .tile .v4,.pdp:has(#v5:checked) .tile .v5,.pdp:has(#v6:checked) .tile .v6{display:block}
+/* радіо ховаємо, видно тільки підписи */
+.pick{position:absolute;opacity:0;width:1px;height:1px}
+/* вибір кольору і розміру */
+.sizes{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:0 0 18px;padding:0;border:0;min-width:0;position:relative}
+.size{min-width:46px;padding:9px 12px;border:1px solid var(--line);background:var(--surface);border-radius:8px;font-weight:600;text-align:center;cursor:pointer}
+.size.color{padding:9px 14px}
+.size.out{color:var(--mute);text-decoration:line-through}
+.pick:checked+.size{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.pick:focus-visible+.size,.pick:focus-visible+.thumb{outline:2px solid var(--accent);outline-offset:2px}
+/* маленькі фото під головним */
+.thumbs{display:flex;gap:8px;margin-top:10px;position:relative}
+.thumb{width:64px;height:64px;border:2px solid var(--line);border-radius:8px;overflow:hidden;background:#fff;cursor:pointer;display:block}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.pick:checked+.thumb{border-color:var(--accent)}
+/* підписка на наявність, видно коли обрано розмір якого нема */
+.notify{display:none;gap:8px;margin-bottom:18px;flex-wrap:wrap}
+.notify input{flex:1;min-width:180px}
+.pdp:has(.pick.o:checked) .notify,.pdp.is-sold .notify{display:flex}
+.pdp:has(.pick.o:checked) .buy{opacity:.4;pointer-events:none}
+/* відгуки */
+.reviews{margin-top:36px;display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.rev-title{font-size:28px}
+.rev{border-bottom:1px solid var(--line);padding:12px 0}.rev small{color:var(--mute);display:block}
+.rstars{color:#f5b301}
+.row2{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:8px 0}
+.reviews textarea{margin-bottom:10px}
+/* зірки: порядок навпаки, щоб підсвічувались ліві */
+.stars{display:inline-flex;flex-direction:row-reverse;position:relative}
+.stars input{position:absolute;opacity:0;width:1px;height:1px}
+.stars label{font-size:28px;line-height:1;color:var(--line);cursor:pointer;padding:0 1px}
+.stars input:checked~label,.stars label:hover,.stars label:hover~label{color:#f5b301}
+.stars input:focus-visible+label{outline:2px solid var(--accent)}
+/* вікно з таблицею розмірів */
+.scrim{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;place-items:center;z-index:40;padding:16px}
+.scrim:target{display:grid}
+.modal{background:var(--surface);border-radius:14px;padding:22px;width:min(440px,100%);max-height:90vh;overflow:auto}
+.mhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.modal h2{font-size:26px}
+.x{font-size:26px;line-height:1;text-decoration:none;padding:0 6px}

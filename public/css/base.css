@@ -1,0 +1,27 @@
+/* скидання і основа */
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--ink);font:500 15px/1.45 Barlow,system-ui,sans-serif}
+h1,h2,h3{font-family:'Barlow Condensed','Arial Narrow',sans-serif;margin:0;letter-spacing:.01em}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+/* текст тільки для скрінрідерів */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+/* шапка */
+header{background:var(--head);color:var(--head-ink);position:sticky;top:0;z-index:20}
+.bar{max-width:1180px;margin:auto;display:flex;align-items:center;gap:28px;padding:14px 20px}
+/* логотип */
+.logo{font:800 26px 'Barlow Condensed',sans-serif;letter-spacing:.02em;margin-right:auto;text-decoration:none;white-space:nowrap}
+.logo b{color:var(--accent)}
+/* меню */
+nav{display:flex;gap:22px}
+nav a{text-decoration:none;font-weight:600;padding:6px 0;border-bottom:2px solid transparent;white-space:nowrap}
+nav a:hover,nav a[aria-current]{border-color:var(--accent)}
+/* кнопка кошика */
+.cartbtn{background:var(--accent);color:var(--accent-ink);padding:8px 16px;border-radius:8px;font-weight:600;text-decoration:none;white-space:nowrap}
+/* головна частина */
+main{max-width:1180px;margin:auto;padding:24px 20px 80px}
+.page-title{font-size:34px;margin-bottom:16px}
+.page-actions{margin-top:16px}
+.mute{color:var(--mute)}
+.note{color:var(--mute);font-size:13px;margin:8px 0 0}

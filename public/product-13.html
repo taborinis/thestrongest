@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Гетри SBD Aspire — THESTRONGEST</title>
+<meta name="description" content="Гетри SBD Aspire — 1 245 грн. THESTRONGEST: екіпірування для пауерліфтингу.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=Barlow:wght@400;500;600&amp;display=swap">
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/product.css">
+<link rel="stylesheet" href="css/interactive.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<!-- шапка -->
+<header><div class="bar">
+<a class="logo" href="index.html">THE <b>STRONGEST</b></a>
+<nav aria-label="Основна навігація"><a href="index.html">Каталог</a><a href="poyasa.html">Пояси</a><a href="nakolinnyky.html">Наколінники</a><a href="getry.html" aria-current="page">Гетри</a><a href="ekipiruvannya.html">Екіпірування</a><a href="delivery.html">Доставка</a><a href="admin.html">Адмінка</a></nav>
+<a class="cartbtn" href="checkout.html">Кошик</a>
+</div></header>
+<main>
+<a class="link back" href="getry.html">← До каталогу</a>
+<!-- товар: фото зліва, інфо справа -->
+<div class="pdp" id="top">
+<div><div class="tile"><img class="v v0" src="img/sbd-socks-aspire.jpg" alt="Гетри SBD Aspire"></div></div>
+<div>
+<div class="brand">SBD</div>
+<h1>Гетри SBD Aspire</h1>
+<div class="price">1 245 грн</div>
+
+<fieldset class="sizes"><legend class="sr">Розмір</legend><input class="pick" type="radio" name="size" id="s0" value="XS"><label class="size" for="s0">XS</label><input class="pick" type="radio" name="size" id="s1" value="S"><label class="size" for="s1">S</label><input class="pick" type="radio" name="size" id="s2" value="M"><label class="size" for="s2">M</label><input class="pick" type="radio" name="size" id="s3" value="L"><label class="size" for="s3">L</label><input class="pick" type="radio" name="size" id="s4" value="XL"><label class="size" for="s4">XL</label><input class="pick" type="radio" name="size" id="s5" value="2XL"><label class="size" for="s5">2XL</label><a class="link" href="#sizes">Таблиця розмірів</a></fieldset>
+<!-- підписка на наявність -->
+<form class="notify" action="#notify" id="notify">
+<label class="sr" for="n-mail">Ваш email</label>
+<input class="f" id="n-mail" name="email" type="email" placeholder="Ваш email" required>
+<button class="btn" type="submit">Сповістити про наявність</button>
+</form>
+<a class="btn lg buy" href="checkout.html">Купити</a>
+</div>
+</div>
+<!-- відгуки -->
+<div class="reviews" id="reviews">
+<div>
+<h2 class="rev-title">Відгуки покупців</h2>
+<p class="mute">Відгуків ще немає. Поділіться першим досвідом.</p>
+</div>
+<form class="panel" action="#reviews" method="get">
+<h3>Залиште свій відгук</h3>
+<div class="stars" role="radiogroup" aria-label="Оцінка"><input type="radio" name="rate" id="r5" value="5" required><label for="r5" title="5 з 5"><span class="sr">5 з 5</span>★</label><input type="radio" name="rate" id="r4" value="4" required><label for="r4" title="4 з 5"><span class="sr">4 з 5</span>★</label><input type="radio" name="rate" id="r3" value="3" required><label for="r3" title="3 з 5"><span class="sr">3 з 5</span>★</label><input type="radio" name="rate" id="r2" value="2" required><label for="r2" title="2 з 5"><span class="sr">2 з 5</span>★</label><input type="radio" name="rate" id="r1" value="1" required><label for="r1" title="1 з 5"><span class="sr">1 з 5</span>★</label></div>
+<div class="row2">
+<label class="sr" for="r-h">Зріст, см</label><input class="f" id="r-h" name="height" type="number" min="100" max="230" placeholder="Зріст, см">
+<label class="sr" for="r-w">Вага, кг</label><input class="f" id="r-w" name="weight" type="number" min="30" max="250" placeholder="Вага, кг">
+<label class="sr" for="r-t">Обхват талії</label><input class="f" id="r-t" name="waist" type="number" min="40" max="200" placeholder="Обхват талії">
+</div>
+<label class="sr" for="r-text">Текст відгуку</label>
+<textarea class="f" id="r-text" name="text" rows="4" minlength="3" required placeholder="Як сидить, чи підійшов розмір, як у залі"></textarea>
+<button class="btn" type="submit">Надіслати відгук</button>
+<p class="note">Відгук з’явиться після перевірки на спам.</p>
+</form>
+</div>
+<!-- вікно з таблицею розмірів (відкривається через :target) -->
+<div class="scrim" id="sizes"><div class="modal" role="dialog" aria-labelledby="mt">
+<div class="mhead"><h2 id="mt">Розмірна сітка</h2><a class="x" href="#top" aria-label="Закрити">×</a></div>
+<table><thead><tr><th scope="col">Розмір гетр</th><th scope="col">Взуття (UK)</th><th scope="col">Взуття (EU)</th><th scope="col">Довжина шкарпетки</th></tr></thead><tbody><tr><th scope="row">XS</th><td>< 3</td><td>< 35,5</td><td>35 см</td></tr><tr><th scope="row">S</th><td>3–5</td><td>< 38</td><td>40 см</td></tr><tr><th scope="row">M</th><td>4–8</td><td>37–42</td><td>46 см</td></tr><tr><th scope="row">L</th><td>7–11</td><td>40–46</td><td>50 см</td></tr><tr><th scope="row">XL</th><td>10–14</td><td>44–49</td><td>53 см</td></tr><tr><th scope="row">2XL</th><td>13+</td><td>48+</td><td>55 см</td></tr></tbody></table>
+<p class="note">Розмір гетр підбирається за розміром взуття. Якщо ваш розмір на межі - беріть більший.</p>
+</div></div>
+</main>
+<script src="js/api.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/forms.js"></script>
+<script src="js/product.js"></script>
+</body>
+</html>

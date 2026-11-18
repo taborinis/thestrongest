@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Адмінка — THESTRONGEST</title>
+<meta name="description" content="Панель адміністратора: товари та замовлення.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=Barlow:wght@400;500;600&amp;display=swap">
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/pages.css">
+<link rel="stylesheet" href="css/interactive.css">
+<link rel="stylesheet" href="css/admin.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<!-- шапка -->
+<header><div class="bar">
+<a class="logo" href="index.html">THE <b>STRONGEST</b></a>
+<nav aria-label="Основна навігація"><a href="index.html">Каталог</a><a href="poyasa.html">Пояси</a><a href="nakolinnyky.html">Наколінники</a><a href="getry.html">Гетри</a><a href="ekipiruvannya.html">Екіпірування</a><a href="delivery.html">Доставка</a><a href="admin.html" aria-current="page">Адмінка</a></nav>
+<a class="cartbtn" href="checkout.html">Кошик</a>
+</div></header>
+<main>
+<!-- вхід адміністратора -->
+<div class="admin" id="login-box">
+<h1 class="page-title">Панель адміністратора</h1>
+<form class="panel" id="login" action="#" method="post">
+<div class="field"><label for="a-token">Токен адміністратора</label><input class="f" id="a-token" name="token" type="password" autocomplete="current-password" required></div>
+<button class="btn lg" type="submit">Увійти</button>
+<p class="note">Токен задається змінною середовища ADMIN_TOKEN на сервері.</p>
+</form>
+</div>
+<div class="admin-wide" id="admin-area" hidden>
+<div class="a-head"><h1 class="page-title">Панель адміністратора</h1><button class="btn ghost" type="button" id="logout">Вийти</button></div>
+<div class="a-tabs" role="tablist" aria-label="Розділи адмін-панелі">
+<button type="button" role="tab" id="tab-products" aria-controls="sec-products" aria-selected="true">Товари</button>
+<button type="button" role="tab" id="tab-orders" aria-controls="sec-orders" aria-selected="false" tabindex="-1">Замовлення <span class="cnt" id="new-orders" hidden></span></button>
+</div>
+<section id="sec-products" role="tabpanel" aria-labelledby="tab-products">
+<div class="a-grid">
+<!-- форма додавання товару -->
+<form class="panel" id="add" action="#" method="post">
+<h2>Новий товар</h2>
+<div class="field"><label for="a-name">Назва товару</label><input class="f" id="a-name" name="name" maxlength="120" required></div>
+<div class="row-2">
+<div class="field"><label for="a-price">Ціна, грн</label><input class="f" id="a-price" name="price" type="number" min="1" max="1000000" required></div>
+<div class="field"><label for="a-old">Стара ціна, грн</label><input class="f" id="a-old" name="old_price" type="number" min="1" max="1000000" placeholder="Необов’язково"></div>
+</div>
+<div class="row-2">
+<div class="field"><label for="a-brand">Бренд</label>
+<select class="f" id="a-brand" name="brand" required><option value="">Оберіть бренд</option><option>SBD</option><option>Cerberus</option><option>Titan</option></select></div>
+<div class="field"><label for="a-cat">Категорія</label>
+<select class="f" id="a-cat" name="category" required><option value="">Оберіть категорію</option><option value="belts">Пояси</option><option value="knee">Наколінники</option><option value="wraps">Бинти</option><option value="socks">Гетри</option><option value="gear">Екіпірування</option></select></div>
+</div>
+<div class="field"><label for="a-sizes">Розміри через кому</label><input class="f" id="a-sizes" name="sizes" placeholder="S, M, L, XL"></div>
+<div class="field"><label for="a-meta">Коротка характеристика</label><input class="f" id="a-meta" name="meta" maxlength="80" placeholder="Наприклад: 7 мм"></div>
+<div class="field"><span>Фото</span>
+<label class="drop"><input type="file" name="photo" accept="image/jpeg,image/png,image/webp" required>
+<span class="d-empty">Перетягніть фото сюди або натисніть, щоб завантажити</span>
+<span class="d-done">Фото вибрано</span></label></div>
+<button class="btn lg" type="submit">Зберегти</button>
+<p class="ok" id="saved" role="status"></p>
+</form>
+<!-- список товарів -->
+<div class="panel a-list">
+<div class="a-bar"><h2>Товари <span class="mute" id="p-count"></span></h2>
+<label class="sr" for="p-search">Пошук товару</label><input class="f" id="p-search" type="search" placeholder="Пошук за назвою"></div>
+<p class="mute" id="p-state" role="status">Завантаження…</p>
+<div class="t-wrap"><table class="a-table" id="p-table">
+<thead><tr><th scope="col">Фото</th><th scope="col">Товар</th><th scope="col">Ціна, грн</th><th scope="col">В наявності</th><th scope="col"><span class="sr">Дії</span></th></tr></thead>
+<tbody></tbody>
+</table></div>
+</div>
+</div>
+</section>
+<section id="sec-orders" role="tabpanel" aria-labelledby="tab-orders" hidden>
+<div class="panel">
+<div class="a-bar"><h2>Замовлення</h2>
+<label class="sr" for="o-filter">Фільтр за статусом</label>
+<select class="f" id="o-filter"><option value="">Усі статуси</option><option value="new">Нові</option><option value="confirmed">Підтверджені</option><option value="shipped">Відправлені</option><option value="done">Виконані</option><option value="cancelled">Скасовані</option></select></div>
+<p class="mute" id="o-state" role="status">Завантаження…</p>
+<div class="t-wrap"><table class="a-table" id="o-table">
+<thead><tr><th scope="col">№</th><th scope="col">Дата</th><th scope="col">Покупець</th><th scope="col">Доставка</th><th scope="col">Склад</th><th scope="col">Сума</th><th scope="col">Статус</th><th scope="col"><span class="sr">Дії</span></th></tr></thead>
+<tbody></tbody>
+</table></div>
+</div>
+</section>
+</div>
+</main>
+<script src="js/api.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/forms.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>

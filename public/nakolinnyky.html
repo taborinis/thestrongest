@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Наколінники — THESTRONGEST</title>
+<meta name="description" content="THESTRONGEST — спеціалізоване екіпірування для пауерліфтингу та важкої атлетики: пояси, наколінники, бинти, гетри, екіпірування.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=Barlow:wght@400;500;600&amp;display=swap">
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/filters.css">
+<link rel="stylesheet" href="css/interactive.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<!-- шапка -->
+<header><div class="bar">
+<a class="logo" href="index.html">THE <b>STRONGEST</b></a>
+<nav aria-label="Основна навігація"><a href="index.html">Каталог</a><a href="poyasa.html">Пояси</a><a href="nakolinnyky.html" aria-current="page">Наколінники</a><a href="getry.html">Гетри</a><a href="ekipiruvannya.html">Екіпірування</a><a href="delivery.html">Доставка</a><a href="admin.html">Адмінка</a></nav>
+<a class="cartbtn" href="checkout.html">Кошик</a>
+</div></header>
+<main>
+<!-- каталог: фільтри зліва, товари справа -->
+<div class="layout">
+<form class="panel filters" aria-label="Фільтри">
+<h2>Фільтри</h2>
+<fieldset class="group g-brand"><legend>Бренд</legend>
+<label class="chk"><input type="checkbox" id="brand-sbd" name="brand" value="sbd"><span>SBD</span><em>1</em></label>
+<label class="chk"><input type="checkbox" id="brand-cerberus" name="brand" value="cerberus"><span>Cerberus</span><em>1</em></label>
+</fieldset>
+<button class="btn ghost block" type="reset">Скинути</button>
+</form>
+<section>
+<div class="top">
+<h1>Наколінники</h1>
+<label class="sortbox">Сортування <select id="sort" name="sort">
+<option value="pop">Популярні</option>
+<option value="asc">Дешевші спочатку</option>
+<option value="desc">Дорожчі спочатку</option>
+</select></label>
+</div>
+<div class="grid">
+<article class="card" data-brand="sbd" data-thick="-" data-clasp="-" data-type="-">
+<a class="tile" href="product-3.html" aria-label="Наколінники SBD 7 мм"><img src="img/sbd-knee-7.jpg" alt="Наколінники SBD 7 мм" loading="lazy"><span class="tag">IPF approved</span></a>
+<div class="brand">SBD</div>
+<h2 class="name"><a href="product-3.html">Наколінники SBD 7 мм</a></h2>
+<div class="price">7 395 грн</div>
+<a class="btn" href="product-3.html">Купити</a>
+</article>
+<article class="card" data-brand="cerberus" data-thick="-" data-clasp="-" data-type="-">
+<a class="tile" href="product-6.html" aria-label="Наколінники Cerberus 7 мм"><img src="img/cerberus-knee-7.jpg" alt="Наколінники Cerberus 7 мм" loading="lazy"></a>
+<div class="brand">Cerberus</div>
+<h2 class="name"><a href="product-6.html">Наколінники Cerberus 7 мм</a></h2>
+<div class="price">3 400 грн</div>
+<a class="btn" href="product-6.html">Купити</a>
+</article>
+<p class="empty">За цими фільтрами нічого немає. Спробуйте скинути їх.</p>
+</div>
+</section>
+</div>
+</main>
+<script src="js/api.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/catalog.js"></script>
+</body>
+</html>

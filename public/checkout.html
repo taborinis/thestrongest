@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Оформлення замовлення — THESTRONGEST</title>
+<meta name="description" content="Оформлення замовлення в магазині THESTRONGEST.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=Barlow:wght@400;500;600&amp;display=swap">
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/pages.css">
+<link rel="stylesheet" href="css/interactive.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<!-- шапка -->
+<header><div class="bar">
+<a class="logo" href="index.html">THE <b>STRONGEST</b></a>
+<nav aria-label="Основна навігація"><a href="index.html">Каталог</a><a href="poyasa.html">Пояси</a><a href="nakolinnyky.html">Наколінники</a><a href="getry.html">Гетри</a><a href="ekipiruvannya.html">Екіпірування</a><a href="delivery.html">Доставка</a><a href="admin.html">Адмінка</a></nav>
+<a class="cartbtn" href="checkout.html">Кошик</a>
+</div></header>
+<main>
+<h1 class="page-title">Оформлення замовлення</h1>
+<div class="two">
+<!-- форма замовлення -->
+<form class="panel" action="#thanks" method="get">
+<div class="field"><label for="c-name">ПІБ</label><input class="f" id="c-name" name="name" autocomplete="name" placeholder="Прізвище Ім’я По батькові" minlength="5" required></div>
+<div class="field"><label for="c-tel">Телефон</label><input class="f" id="c-tel" name="tel" type="tel" autocomplete="tel" value="+380 " pattern="\+380[0-9 \(\)\-]{9,}" title="Формат: +380 (XX) XXX-XX-XX" required></div>
+<fieldset class="field"><legend>Доставка</legend>
+<div class="radio">
+<label><input type="radio" name="dl" value="np" checked> Нова Пошта</label>
+<label><input type="radio" name="dl" value="pick"> Самовивіз</label>
+</div></fieldset>
+<div class="npbox">
+<div class="field"><label for="c-city">Місто</label>
+<select class="f" id="c-city" name="city" required><option value="">Оберіть місто</option><option value="0">Київ</option><option value="1">Одеса</option><option value="2">Харків</option><option value="3">Дніпро</option><option value="4">Львів</option><option value="5">Запоріжжя</option><option value="6">Вінниця</option><option value="7">Полтава</option><option value="8">Чернігів</option><option value="9">Суми</option><option value="10">Житомир</option><option value="11">Черкаси</option><option value="12">Рівне</option><option value="13">Івано-Франківськ</option><option value="14">Тернопіль</option><option value="15">Луцьк</option><option value="16">Ужгород</option><option value="17">Чернівці</option><option value="18">Миколаїв</option><option value="19">Херсон</option><option value="20">Кропивницький</option><option value="21">Хмельницький</option></select></div>
+<div class="field"><label for="c-branch">Відділення</label>
+<select class="f" id="c-branch" name="branch" required disabled><option value="">Спочатку оберіть місто</option></select></div>
+</div>
+<button class="btn lg" type="submit">Оформити замовлення</button>
+<p class="ok" id="thanks" role="status"></p>
+</form>
+<!-- склад замовлення -->
+<aside class="panel">
+<h2>Ваше замовлення</h2>
+<div id="cart-list"></div>
+<a class="btn ghost block" href="index.html">До каталогу</a>
+</aside>
+</div>
+</main>
+<script src="js/api.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/forms.js"></script>
+<script src="js/checkout.js"></script>
+</body>
+</html>
